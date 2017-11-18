@@ -1,0 +1,10 @@
+- alias: "Temptest"
+  trigger:
+    platform: time
+    minutes: '/1'
+    seconds: 00
+  action:
+    service: notify.pushbullet
+    data_template:
+      title: "Tempen is"
+      message: "Nu is tempen {{states('sensor.0a520206d403002c590369_temperature')}} c"

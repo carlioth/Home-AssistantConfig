@@ -1,0 +1,4 @@
+- platform: yr
+
+- platform: rfxtrx
+  automatic_add: True
