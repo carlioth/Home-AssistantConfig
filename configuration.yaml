@@ -16,6 +16,7 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 sensor: !include sensors.yaml
+switch: !include switches.yaml
 
 #--------------- ENABLES ---------------
 frontend:
